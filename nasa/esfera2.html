@@ -180,7 +180,7 @@
         container: 'photosphere',
         panorama: panos[0].url,
         caption: panos[0].desc,
-        loadingImg: 'assets/photosphere-logo.gif',
+        loadingImg: '../assets/photosphere-logo.gif',
         longitudeRange: [-7 * Math.PI / 8, 7 * Math.PI / 8],
         latitudeRange: [-3 * Math.PI / 4, 3 * Math.PI / 4],
         autorotateSpeed: '-2rpm',
@@ -213,7 +213,7 @@
                 content: document.getElementById('pin_galaxia2').innerHTML,
                 latitude: 0,
                 longitude: 0.0,
-                image: 'assets/rocket.png',
+                image: '../assets/rocket.png',
                 width: 32,
                 height: 32,
                 anchor: 'bottom center',
@@ -228,7 +228,7 @@
                 content: document.getElementById('pin_item1').innerHTML,
                 latitude: 0.3,
                 longitude: 0.7,
-                image: 'assets/planet.png',
+                image: '../assets/planet.png',
                 width: 32,
                 height: 32,
                 anchor: 'bottom center',
@@ -243,7 +243,7 @@
                 content: document.getElementById('pin_item2').innerHTML,
                 latitude: -0.4,
                 longitude: -0.9,
-                image: 'assets/planet.png',
+                image: '../assets/planet.png',
                 width: 32,
                 height: 32,
                 anchor: 'bottom center',
@@ -258,7 +258,7 @@
                 content: document.getElementById('pin_item3').innerHTML,
                 latitude: 0.5,
                 longitude: -0.5,
-                image: 'assets/planet.png',
+                image: '../assets/planet.png',
                 width: 32,
                 height: 32,
                 anchor: 'bottom center',
@@ -275,7 +275,7 @@
             tooltip: 'Custom marker',
             longitude: data.longitude,
             latitude: data.latitude,
-            image: 'assets/pin1.png',
+            image: '../assets/pin1.png',
             width: 32,
             height: 32,
             anchor: 'bottom center',
@@ -292,7 +292,7 @@
             } else {
                 PSV.hud.updateMarker({
                     id: marker.id,
-                    image: 'assets/pin2.png',
+                    image: '../assets/pin2.png',
                 });
             }
         }
